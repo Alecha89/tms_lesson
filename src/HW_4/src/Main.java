@@ -19,6 +19,7 @@ public class Main {
         System.out.println("2. Ввод с клавиатуры");
         int choice = scanner.nextInt();
 
+
         if (choice == 1) {
             for (int i = 0; i < size; i++) {
                 array[i] = (int)(Math.random() * 100); // число от 0 до 99
