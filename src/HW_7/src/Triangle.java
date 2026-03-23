@@ -22,4 +22,5 @@ public class Triangle extends Shape{
     public double perimeter() {
         return (a + b + c);
     }
+
 }
