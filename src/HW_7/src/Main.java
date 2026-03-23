@@ -13,6 +13,7 @@ public class Main {
         director.printPosition();
         worker.printPosition();
 
+
         //-------------Задача 2:
         System.out.println("-------------Задача 2:");
         Shape[] shapes = new Shape[5];
