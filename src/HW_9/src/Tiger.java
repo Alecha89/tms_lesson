@@ -6,9 +6,10 @@ public class Tiger implements Animal{
     public void voice() {
         System.out.println("Ррр");
     }
+
     @Override
     public void eat(String food) {
-        if (food == "Meet") {
+        if (food.equals("Meet")) {
             System.out.println("Я люблю мясо!");
         } else {
             System.out.println("Недоволен, я люблю мясо!");
